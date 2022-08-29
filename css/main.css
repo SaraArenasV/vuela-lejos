@@ -1,0 +1,17 @@
+body { 
+    overflow-x: hidden;
+}
+
+#menu a { 
+    font-size: 18px;
+    color: #1b0088 ;
+}
+
+#menu button { 
+    font-size: 18px;
+    color: #1b0088 ;
+}
+
+.carousel-inner { 
+    max-height: 35rem;
+}
