@@ -13,5 +13,15 @@ body {
 }
 
 .carousel-inner { 
-    max-height: 35rem;
+    max-height:35rem;
+}
+
+@media (max-width:768px) {
+     #intro{
+        width: 90% !important;
+    }
+    .hoteles-fila {
+        width: 100% !important;
+        text-align: center;
+    }
 }
