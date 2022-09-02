@@ -8,7 +8,7 @@
     <title>Vuela lejos</title>
 </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light" id="menu">
+    <nav class="navbar navbar-expand-lg" id="menu">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Vuela Lejos</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,16 +20,16 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Destinos</a>
+                <a class="nav-link" href="#destinos">Destinos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Hoteles</a>
+                <a class="nav-link" href="#hoteles">Hoteles</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Centro de ayuda</a>
+                <a class="nav-link" href="#preguntas-frecuentes">Centro de ayuda</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
               </li>
             </ul>
           </div>
@@ -46,8 +46,8 @@
         </p>
       </section>
 
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-        <div class="h2 p-3 text-center">Destinos</div>
+      <div id="destinos" class="carousel slide" data-bs-ride="false">
+        <h2 class="h2 p-3 text-center">Destinos</h2>
         <p class="w-50 mx-auto text-center pt-1">
           Rio de Janeiro, San Andrés y Playa del Carmen!
         </p>
@@ -89,7 +89,7 @@
         </button>
       </div>
 
-      <section class="container-fluid pt-5">
+      <section class="container-fluid pt-5" id="hoteles">
         <div class="row w-75 mx-auto my-5 hoteles-fila">
           <div class="col-lg-4 col-md-4 col-sm-12">
             <img src="./img/janeiro hotel.jpg" alt="" width="180" height="160">
@@ -102,7 +102,7 @@
           <div class="col-lg-4 col-md-4 col-sm-12">
             <img src="./img/sanandres.jpg" alt="" width="180" height="160">
             <div>
-              <h3>Hotel Casablanca</h3>
+              <h3 class="fs-5 mt-4 px-4 pb-1">Hotel Casablanca</h3>
               <p>El Casablanca está rodeado de palmeras y se encuentra frente a la playa, en la isla de San Andrés. Ofrece WiFi gratuita y 4 sitios para comer.
               </p>
             </div>
@@ -110,7 +110,7 @@
           <div class="col-lg-4 col-md-4 col-sm-12">
             <img src="./img/secrets-maroma-beach.jpg" alt="" width="180" height="160">
             <div>
-              <h3>Secrets Maroma Beach</h3>
+              <h3 class="fs-5 mt-4 px-4 pb-1">Secrets Maroma Beach</h3>
               <p>Descubre por qué tantos viajeros ven Secrets Maroma Beach Riviera Cancun como el complejo turístico con todo incluido ideal cuando visitan Playa Maroma. 
               </p>
             </div>
@@ -118,7 +118,7 @@
         </div>
       </section>
 
-      <section class="mx-auto text-center ">
+      <section class="mx-auto text-center " id="preguntas-frecuentes">
         <h2 class="mb-3">Preguntas frecuentes</h2>
         <div class="w-50 m-auto text-center id=pregunta">
           <h4 class="mb-2 fs-5">¿Cómo funciona el Check-in automático? </h4>
@@ -152,14 +152,15 @@
         </div>
       </section>
       
-    <footer class="container-fluid bg-primary d-flex justify-content-center">
-        <p class="text-light mb-0 p-2 fs-6">Los números de contacto son:  
+    <footer class="container-fluid d-flex justify-content-center" id="contacto">
+        <p class="mb-0 p-2 fs-6">Los números de contacto son:  
 
         Teléfono 1: 996040090 
 
         Teléfono 2: 996040091 
 
         <a href="https://www.gmail.com">Email: contacto@aerolinea.cl </a>
+        </p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>

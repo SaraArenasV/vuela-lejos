@@ -1,19 +1,29 @@
 body { 
     overflow-x: hidden;
+    font: #1b0088 !important;
+}
+#menu{
+    background-color: #1b0088;
+    
 }
 
 #menu a { 
     font-size: 18px;
-    color: #1b0088 ;
+    color: #ffff;
 }
 
 #menu button { 
     font-size: 18px;
-    color: #1b0088 ;
+    color: #1b0088;
 }
 
 .carousel-inner { 
     max-height:35rem;
+}
+
+#contacto{
+    background-color: #1b0088;
+    color: #ffff;
 }
 
 @media (max-width:768px) {
@@ -25,3 +35,7 @@ body {
         text-align: center;
     }
 }
+h3,h1, h2,h4{
+    color: #1b0088;
+}
+
